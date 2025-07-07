@@ -30,5 +30,18 @@ To test it:
 Then go to: http://localhost:5173
 
 📁 Folder Structure
-<pre> ```text src/ ├── components/ │ └── Navbar.jsx │ └── Dropdown.jsx │ └── Welcome.jsx │ └── WelcomeCard.jsx ├── pages/ │ └── ApiPage.jsx ├── App.css ├── App.jsx ├── index.css └── main.jsx ``` </pre>
-
+<pre> 
+```
+src/
+├── components/
+│   └── Navbar.jsx
+│   └── Dropdown.jsx
+│   └── Welcome.jsx
+│   └── WelcomeCard.jsx
+├── pages/
+│   └── ApiPage.jsx
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
+``` </pre>
