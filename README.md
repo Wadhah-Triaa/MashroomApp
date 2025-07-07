@@ -1,12 +1,45 @@
-# React + Vite
+# Minimalist React Interface — API Display Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a minimalist React-based UI . The goal was to replicate a clean interface and display external API data clearly and effectively.
 
-Currently, two official plugins are available:
+-  Minimalist and clean UI using React + Tailwind CSS
+-  Navigation bar with clear routing between pages
+-  Welcome page as the main landing view
+-  Table view to display API data 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The **navbar** contains:
+  - Navigation to the API-powered table
+  - A clickable logo that redirects to the Welcome page
 
-## Expanding the ESLint configuration
+- The **table page**:
+  - Fetches all data from the provided API
+  - Displays the data in a table
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Technologies used
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+
+
+To test it:
+- Clone the repo
+- cd mashroomapp
+- npm install
+- npm run dev
+Then go to: http://localhost:5173
+
+📁 Folder Structure
+src/
+├── components/
+│   └── Navbar.jsx
+│   └── Dropdown.jsx
+│   └── Welcome.jsx
+│   └── WelcomeCard.jsx
+│   ├── pages/
+│   │   └── ApiPage.jsx
+├── App.css
+├── App.jsx
+├── index.css
+└── main.jsx
+
