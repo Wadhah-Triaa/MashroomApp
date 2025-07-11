@@ -9,7 +9,7 @@ function Navbar() {
       <div className="sticky top-0 z-50 flex ">
         <Link
           to="/"
-          className="hover:underline bg-blue-600 mb-4  p-3 rounded-b-4xl"
+          className="hover:underline bg-blue-600 mb-4 max-h-12 p-3 rounded-b-4xl"
         >
           <span className="text-xl font-bold text-white title">Saas</span>
           <span className="text-l font-bold text-white ">Tribe</span>
